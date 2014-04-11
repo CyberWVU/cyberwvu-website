@@ -10,4 +10,7 @@ It also uses [Elastislide](https://github.com/codrops/Elastislide) as an image g
 TODO:  
 1. Create script to automatically create thumbnails given a folder of images    
 2. Create script to autogenerate links for gallery    
-3. Update gallery with proper pictures    
+3. Update gallery with proper pictures        
+4. Updated favicon      
+5. Finalize CSS colors     
+6. CLean up code     
