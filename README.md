@@ -13,4 +13,4 @@ TODO:
 3. Update gallery with proper pictures        
 4. Update favicon      
 5. Finalize CSS colors     
-6. CLean up and format code     
+6. Clean up and format code     
