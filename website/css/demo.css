@@ -46,6 +46,8 @@ a {
 }
 
 .container {
+        padding-left:7%;
+	padding-right:7%;
 	width: 100%;
 	position: relative;
 }
@@ -179,11 +181,11 @@ a {
 
 .js .gallery {
 	width: 100%;
-	max-width: 450px;
+	max-width: 1000px;
 	margin: 0 auto;
 	border-radius: 20px;
 	position: relative;
-	background: #000 url(../images/black_denim.png);
+	background: #eeb111;
 	box-shadow: 0 2px 1px rgba(255,255,255,0.9), 0 -2px 1px rgba(255,255,255,0.9);
 }
 
@@ -198,3 +200,9 @@ a {
 	}
 }
 
+img {
+border: 0;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
