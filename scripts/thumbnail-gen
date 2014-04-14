@@ -1,0 +1,25 @@
+#!/bin/bash
+
+help(){
+    echo -e "Thumbnail generator - generates thumbnails contained in one directory specifically for this website.\n"
+    echo "Usage:"
+    echo "thumbnail-gen <dir name>"
+    exit 1
+}
+
+if [ $# -eq 0 ]; then
+    echo "you give no directory! no thumbnails for you!"
+    help
+elif [ ! -d $1 ]; then
+    echo "your directory no exist! no thumbnails for you!"
+    help
+fi
+
+FILES="$1/*"
+
+mkdir generated-thumbnails
+
+for file in $FILES; do
+    fileName=`basename $file`
+    convert -resize 150x160! $file "generated-thumbnails/$fileName"
+done
