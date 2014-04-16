@@ -29,7 +29,7 @@ GALLERY="<ul id=\"carousel\" class=\"elastislide-list\">"
 
 for file in $FILES; do
     f=`basename $file`
-    GALLERY="$GALLERY\n<li data-preview=\"images/large/$f\"><a href=\"#\"><img src=\"images/small/$f\" alt=\"$f\" /></a></li>\""
+    GALLERY="$GALLERY\n<li data-preview=\"images/large/$f\"><a href=\"#\"><img src=\"images/small/$f\" alt=\"$f\" /></a></li>"
 done
 
 GALLERY="$GALLERY\n</ul>"
