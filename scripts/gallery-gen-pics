@@ -17,9 +17,13 @@ fi
 
 FILES="$1/*"
 
-mkdir generated-thumbnails
+mkdir small
+mkdir large
 
 for file in $FILES; do
     fileName=`basename $file`
-    convert -resize 150x160! $file "generated-thumbnails/$fileName"
+    convert $file -resize 150x160! "small/$fileName"
+    convert $file -resize 450x300\> "large/$fileName"
 done
+
+exit 0
