@@ -7,8 +7,4 @@ It also uses [Elastislide](https://github.com/codrops/Elastislide) as an image g
 
 ![Alt text](/screenshot/home.png "Homepage")
 
-TODO:  
-1. Finalize CSS colors     
-2. Clean up and format code       
-3. Add google calender back to about page     
-4. Fix nav bar for small screen sizes (mobile view) 
+
