@@ -40,7 +40,7 @@
 								<p>Getting involved is easy! Check out the <a href="whatsnew.php">what's new</a> page to see if we have an event coming up, attend one of our weekly meetings, or sign up for our <a href="joinus.php">mailing list</a>. Everyone is welcome. We are always happy to see new faces!</p>
 
 								<h3>Contact Us</h3>
-								<p>You can sign up for our <a href="joinus.php">mailing list</a> or contact one of our <a href="officers.php">officers</a>.
+								<p>You can sign up for our <a href="joinus.php">mailing list</a> or contact one of our <a href="weare.php">officers</a>.
 								<!-- <ul>
 									<li></li>
 									<li></li>

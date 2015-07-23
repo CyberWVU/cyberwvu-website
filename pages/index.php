@@ -23,7 +23,7 @@
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2>Cyber WVU</h2>
+							<h2>CyberWVU</h2>
 							<p>WVU Cyber Security and Forensics Club<br />
 							Reinforcing and Protecting Computer Systems</p>
 						</header>
@@ -100,12 +100,12 @@
 				<section id="four" class="wrapper style1 special fade-up">
 					<div class="container">
 						<header class="major">
-							<h2>Interested?</h2>
+							<h2>Welcome!</h2>
 							<p>Cyber WVU offers the chance to learn new skills that WVU's normal curriculum does not.</p>
 						</header>
 						<div class="box alt">
 							<div class="row uniform">
-								<section class="4u 6u(medium) 12u$(xsmall)">
+<!--								<section class="4u 6u(medium) 12u$(xsmall)">
 									<span class="icon alt major fa-area-chart"></span>
 									<h3>Statitistics</h3>
 									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
@@ -120,7 +120,7 @@
 									<h3>Flask</h3>
 									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
 								</section>
-								<section class="4u 6u$(medium) 12u$(xsmall)">
+							-->	<section class="4u 6u$(medium) 12u$(xsmall)">
 									<span class="icon alt major fa-paper-plane"></span>
 									<h3>Elevate Yourself</h3>
 									<p>Skills you will learn in CyberWVU will allow you to push your knowledge to new levels.</p>
@@ -137,11 +137,6 @@
 								</section>
 							</div>
 						</div>
-						<footer class="major">
-							<ul class="actions">
-								<li><a href="#" class="button">Magna sed feugiat</a></li>
-							</ul>
-						</footer>
 					</div>
 				</section>
 
