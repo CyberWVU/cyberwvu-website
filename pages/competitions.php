@@ -10,14 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
 		<div id="page-wrapper">
 
-			<?php include("header.html");?>
+			<?php include("../include/header.html");?>
 			<!-- Main -->
 				<div id="main" class="wrapper style1">
 					<div class="container">
@@ -32,7 +32,7 @@
 									<section id="sidebar">
 										<section>
 											<h2><strong>Competition Information</strong></h2>
-											<a href="http://www.nationalcyberleague.org" class="image fit"><img src="images/ncl.png" alt="" /></a>
+											<a href="http://www.nationalcyberleague.org" class="image fit"><img src="../images/ncl.png" alt="" /></a>
 											<h3>National Cyber League</h3>
 											<p>The National Cyber League was founded in May 2011 to provide an ongoing virtual training ground for collegiate students to develop, practice, and validate their cybersecurity skills. Using lab exercises designed around industry-recognized performance-based exam objectives and aligned with individual and team games, the NCL is a first-of-its-kind ongoing experiment in learning and gaming using next-generation high-fidelity simulation environments.</p>
 											<footer>
@@ -43,7 +43,7 @@
 										</section>
 										<hr />
 										<section>
-											<a href="http://www.maccdc.org" class="image fit"><img src="images/maccdc.jpg" alt="" /></a>
+											<a href="http://www.maccdc.org" class="image fit"><img src="../images/maccdc.jpg" alt="" /></a>
 											<h3>Mid-Atlantic Collegiate Cyber Defense Competition</h3>
 											<p>The Mid-Atlantic Collegiate Cyber Defense Competition started in 2006. MACCDC is a "inherit and defend" competition. In a nutshell, a group of 8 students are asked to take over a pre configured network. The network often simulates common business configurations in design and aims to be as life like as possible. When the students inherit the network, they then have to fend off waves off hackers known as the Red Team. Additionally, while all of this is going on, injects are given, which basically come down to basic business task that must be completed, all of which are time sensitive.</p>
 											<footer>
@@ -95,14 +95,14 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="../assets/js/main.js"></script>
 
 	</body>
 </html>
