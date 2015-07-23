@@ -17,33 +17,7 @@
 	<body class="landing">
 		<div id="page-wrapper">
 
-			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="about.html">CyberWVU</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="Competitions">Competitions</a>
-								<ul>
-									<li><a href="NCLurlhere">NCL</a></li>
-									<li>
-										<a href="#">CCDC</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button special">Join now!</a></li>
-						</ul>
-					</nav>
-				</header>
-
+			<?php include("header.html");?>
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
